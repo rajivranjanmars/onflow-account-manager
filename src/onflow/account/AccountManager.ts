@@ -4,7 +4,7 @@ import * as fs from "fs";
 import rlp from "rlp";
 
 import { delay } from "../../utils";
-import { ec } from "../cadence/crypto";
+import { generateKeyPair } from "../cadence/crypto";
 import { createAccountCadence } from "../cadence/tx-constants";
 import { Address, TxId } from "../types";
 
@@ -101,12 +101,7 @@ export class AccountManager {
   }
 
   private static generateKeyPair(): KeyPair {
-    const keyPair = ec.genKeyPair();
-
-    return {
-      public: keyPair.getPublic("hex").replace(/^04/, ""),
-      private: keyPair.getPrivate("hex"),
-    };
+    return generateKeyPair();
   }
 
   private static encodePublicKeyForFlow(publicKey: string): string {

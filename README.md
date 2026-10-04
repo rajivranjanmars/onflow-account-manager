@@ -11,3 +11,8 @@ Carrying `Account[]`, creates a new account when all accounts are currently in u
 ### Account
 
 This is the default `Account` class where you can create authentication to use onflow mutate.
+
+
+## Fork author and maintainer
+
+[rajivranjanmars](https://rajivranjana.in) maintains this repository. Original project authors, licenses, and upstream credits are retained.
