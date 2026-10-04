@@ -20,7 +20,7 @@ importers:
         version: 1.9.7
       '@onflow/fcl':
         specifier: ^1.21.11
-        version: 1.21.11(google-protobuf@3.21.4)(jiti@1.21.7)(postcss@8.5.28)(react@18.3.1)(typescript@4.9.5)(yaml@2.9.1)
+        version: 1.21.11(google-protobuf@3.21.4)(jiti@1.21.7)(postcss@8.5.28)(react@18.3.1)(typescript@5.9.3)(yaml@2.9.1)
       '@onflow/types':
         specifier: ^0.0.6
         version: 0.0.6
@@ -35,8 +35,8 @@ importers:
         specifier: ^3.2.0
         version: 3.4.0(prettier@2.8.8)
       '@types/node':
-        specifier: ^17.0.40
-        version: 17.0.45
+        specifier: ^26.6.3
+        version: 26.6.4
       '@types/onflow__fcl':
         specifier: git+https://github.com/many-things/fcl-types.git#semver:^0.0.4
         version: git+https://github.com/many-things/fcl-types.git#fa29497501d151ed2d9a9543462feb82bfa81618
@@ -48,10 +48,10 @@ importers:
         version: 2.8.8
       ts-node:
         specifier: ^10.8.1
-        version: 10.9.2(@types/node@17.0.45)(typescript@4.9.5)
+        version: 10.9.2(@types/node@26.6.4)(typescript@5.9.3)
       typescript:
-        specifier: ^4.7.3
-        version: 4.9.5
+        specifier: ^5.9.3
+        version: 5.9.3
 
 packages:
 
@@ -368,8 +368,8 @@ packages:
   '@types/jsesc@2.5.1':
     resolution: {integrity: sha512-9VN+6yxLOPLOav+7PwjZbxiID2bVaeq0ED4qSQmdQTdjnXJSaCVKTR58t15oqH1H5t8Ng2ZX1SabJVoN9Q34bw==}
 
-  '@types/node@17.0.45':
-    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+  '@types/node@26.6.4':
+    resolution: {integrity: sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==}
 
   '@types/onflow__fcl@git+https://github.com/many-things/fcl-types.git#fa29497501d151ed2d9a9543462feb82bfa81618':
     resolution: {commit: fa29497501d151ed2d9a9543462feb82bfa81618, repo: https://github.com/many-things/fcl-types.git, type: git}
@@ -1262,9 +1262,9 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
     hasBin: true
 
   ufo@1.6.4:
@@ -1275,6 +1275,9 @@ packages:
 
   uncrypto@0.1.3:
     resolution: {integrity: sha512-Ql87qFHB3s/De2ClA9e0gsnS6zXG27SkTiSJwjCc9MebbfapQfuPzumMIUMi38ezPZVNFcHI9sUIepeQfw8J8Q==}
+
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
   universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
@@ -1760,7 +1763,7 @@ snapshots:
       - google-protobuf
       - utf-8-validate
 
-  '@onflow/fcl-wc@6.0.23(@onflow/fcl-core@1.30.3(google-protobuf@3.21.4))(jiti@1.21.7)(postcss@8.5.28)(react@18.3.1)(typescript@4.9.5)(yaml@2.9.1)':
+  '@onflow/fcl-wc@6.0.23(@onflow/fcl-core@1.30.3(google-protobuf@3.21.4))(jiti@1.21.7)(postcss@8.5.28)(react@18.3.1)(typescript@5.9.3)(yaml@2.9.1)':
     dependencies:
       '@babel/runtime': 7.29.7
       '@onflow/config': 1.11.1
@@ -1769,8 +1772,8 @@ snapshots:
       '@onflow/util-logger': 1.3.4
       '@walletconnect/modal': 2.7.0(react@18.3.1)
       '@walletconnect/types': 2.25.0
-      '@walletconnect/universal-provider': 2.25.0(typescript@4.9.5)
-      '@walletconnect/utils': 2.25.0(typescript@4.9.5)
+      '@walletconnect/universal-provider': 2.25.0(typescript@5.9.3)
+      '@walletconnect/utils': 2.25.0(typescript@5.9.3)
       postcss-cli: 11.0.1(jiti@1.21.7)(postcss@8.5.28)
       preact: 10.29.8
       tailwindcss: 3.4.19(yaml@2.9.1)
@@ -1808,12 +1811,12 @@ snapshots:
       - yaml
       - zod
 
-  '@onflow/fcl@1.21.11(google-protobuf@3.21.4)(jiti@1.21.7)(postcss@8.5.28)(react@18.3.1)(typescript@4.9.5)(yaml@2.9.1)':
+  '@onflow/fcl@1.21.11(google-protobuf@3.21.4)(jiti@1.21.7)(postcss@8.5.28)(react@18.3.1)(typescript@5.9.3)(yaml@2.9.1)':
     dependencies:
       '@babel/runtime': 7.29.7
       '@onflow/config': 1.11.1
       '@onflow/fcl-core': 1.30.3(google-protobuf@3.21.4)
-      '@onflow/fcl-wc': 6.0.23(@onflow/fcl-core@1.30.3(google-protobuf@3.21.4))(jiti@1.21.7)(postcss@8.5.28)(react@18.3.1)(typescript@4.9.5)(yaml@2.9.1)
+      '@onflow/fcl-wc': 6.0.23(@onflow/fcl-core@1.30.3(google-protobuf@3.21.4))(jiti@1.21.7)(postcss@8.5.28)(react@18.3.1)(typescript@5.9.3)(yaml@2.9.1)
       '@onflow/interaction': 0.0.11
       '@onflow/rlp': 1.2.4
       '@onflow/sdk': 1.13.7
@@ -2003,7 +2006,9 @@ snapshots:
 
   '@types/jsesc@2.5.1': {}
 
-  '@types/node@17.0.45': {}
+  '@types/node@26.6.4':
+    dependencies:
+      undici-types: 8.9.0
 
   '@types/onflow__fcl@git+https://github.com/many-things/fcl-types.git#fa29497501d151ed2d9a9543462feb82bfa81618': {}
 
@@ -2041,7 +2046,7 @@ snapshots:
 
   '@vue/shared@3.5.43': {}
 
-  '@walletconnect/core@2.25.0(typescript@4.9.5)':
+  '@walletconnect/core@2.25.0(typescript@5.9.3)':
     dependencies:
       '@walletconnect/heartbeat': 1.2.2
       '@walletconnect/jsonrpc-provider': 1.0.14
@@ -2055,7 +2060,7 @@ snapshots:
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
       '@walletconnect/types': 2.25.0
-      '@walletconnect/utils': 2.25.0(typescript@4.9.5)
+      '@walletconnect/utils': 2.25.0(typescript@5.9.3)
       '@walletconnect/window-getters': 1.0.1
       es-toolkit: 1.45.1
       events: 3.3.0
@@ -2207,14 +2212,14 @@ snapshots:
     dependencies:
       tslib: 1.14.1
 
-  '@walletconnect/sign-client@2.25.0(typescript@4.9.5)':
+  '@walletconnect/sign-client@2.25.0(typescript@5.9.3)':
     dependencies:
-      '@walletconnect/core': 2.25.0(typescript@4.9.5)
+      '@walletconnect/core': 2.25.0(typescript@5.9.3)
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/logger': 3.0.2
       '@walletconnect/time': 1.0.2
       '@walletconnect/types': 2.25.0
-      '@walletconnect/utils': 2.25.0(typescript@4.9.5)
+      '@walletconnect/utils': 2.25.0(typescript@5.9.3)
       events: 3.3.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -2274,7 +2279,7 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@walletconnect/universal-provider@2.25.0(typescript@4.9.5)':
+  '@walletconnect/universal-provider@2.25.0(typescript@5.9.3)':
     dependencies:
       '@walletconnect/events': 1.0.1
       '@walletconnect/jsonrpc-http-connection': 1.0.8
@@ -2283,9 +2288,9 @@ snapshots:
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/keyvaluestorage': 1.1.1
       '@walletconnect/logger': 3.0.2
-      '@walletconnect/sign-client': 2.25.0(typescript@4.9.5)
+      '@walletconnect/sign-client': 2.25.0(typescript@5.9.3)
       '@walletconnect/types': 2.25.0
-      '@walletconnect/utils': 2.25.0(typescript@4.9.5)
+      '@walletconnect/utils': 2.25.0(typescript@5.9.3)
       es-toolkit: 1.45.1
       events: 3.3.0
     transitivePeerDependencies:
@@ -2314,7 +2319,7 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@walletconnect/utils@2.25.0(typescript@4.9.5)':
+  '@walletconnect/utils@2.25.0(typescript@5.9.3)':
     dependencies:
       '@msgpack/msgpack': 3.1.3
       '@noble/ciphers': 1.3.0
@@ -2332,7 +2337,7 @@ snapshots:
       '@walletconnect/window-metadata': 1.0.1
       blakejs: 1.2.1
       detect-browser: 5.3.0
-      ox: 0.9.3(typescript@4.9.5)
+      ox: 0.9.3(typescript@5.9.3)
       uint8arrays: 3.1.1
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -2366,9 +2371,9 @@ snapshots:
       '@walletconnect/window-getters': 1.0.1
       tslib: 1.14.1
 
-  abitype@1.3.0(typescript@4.9.5):
+  abitype@1.3.0(typescript@5.9.3):
     optionalDependencies:
-      typescript: 4.9.5
+      typescript: 5.9.3
 
   abort-controller@3.0.0:
     dependencies:
@@ -2756,7 +2761,7 @@ snapshots:
 
   on-exit-leak-free@2.1.2: {}
 
-  ox@0.9.3(typescript@4.9.5):
+  ox@0.9.3(typescript@5.9.3):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -2764,10 +2769,10 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.3.0(typescript@4.9.5)
+      abitype: 1.3.0(typescript@5.9.3)
       eventemitter3: 5.0.1
     optionalDependencies:
-      typescript: 4.9.5
+      typescript: 5.9.3
     transitivePeerDependencies:
       - zod
 
@@ -3042,21 +3047,21 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-node@10.9.2(@types/node@17.0.45)(typescript@4.9.5):
+  ts-node@10.9.2(@types/node@26.6.4)(typescript@5.9.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.13
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 17.0.45
+      '@types/node': 26.6.4
       acorn: 8.18.0
       acorn-walk: 8.3.5
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.4
       make-error: 1.3.6
-      typescript: 4.9.5
+      typescript: 5.9.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
@@ -3064,7 +3069,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  typescript@4.9.5: {}
+  typescript@5.9.3: {}
 
   ufo@1.6.4: {}
 
@@ -3073,6 +3078,8 @@ snapshots:
       multiformats: 9.9.0
 
   uncrypto@0.1.3: {}
+
+  undici-types@8.9.0: {}
 
   universalify@2.0.1: {}
 
