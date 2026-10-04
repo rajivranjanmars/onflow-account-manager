@@ -20,7 +20,7 @@
   "dependencies": {
     "@noble/curves": "^1.9.7",
     "@onflow/fcl": "^1.21.11",
-    "@onflow/types": "^0.0.6",
+    "@onflow/types": "^1.5.0",
     "rlp": "^3.0.0",
     "sha3": "^2.1.4"
   },

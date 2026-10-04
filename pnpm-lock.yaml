@@ -22,8 +22,8 @@ importers:
         specifier: ^1.21.11
         version: 1.21.11(google-protobuf@3.21.4)(jiti@1.21.7)(postcss@8.5.28)(react@18.3.1)(typescript@5.9.3)(yaml@2.9.1)
       '@onflow/types':
-        specifier: ^0.0.6
-        version: 0.0.6
+        specifier: ^1.5.0
+        version: 1.5.0
       rlp:
         specifier: ^3.0.0
         version: 3.0.0
@@ -227,9 +227,6 @@ packages:
 
   '@onflow/typedefs@1.8.0':
     resolution: {integrity: sha512-OvyLFGtXkotf0WaqkLW0xPV4DCeY86v1H0qR+ZxR07nh++XIIgOg1unkvVrx2IIY/x5tr8rDGsPA21X344pnjg==}
-
-  '@onflow/types@0.0.6':
-    resolution: {integrity: sha512-2eBrmqiFO37EUOJvzksygP8Wu6lL/m9az36AF0qYdGQW/79KGCHBCchUsIzxyGt8UDXl/dgnIcMkiTH7tWZqXg==}
 
   '@onflow/types@1.5.0':
     resolution: {integrity: sha512-GvesRIqP8vHvBPGYO2YntrqFWIsOPBGgia9cpghZcyiWJbxuA8qRcdsVrWM5h7I4iEiLHEhgvEIUENeAeHJx+g==}
@@ -1698,8 +1695,6 @@ snapshots:
   '@onflow/typedefs@1.8.0':
     dependencies:
       '@babel/runtime': 7.29.7
-
-  '@onflow/types@0.0.6': {}
 
   '@onflow/types@1.5.0':
     dependencies:
