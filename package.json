@@ -18,7 +18,7 @@
     "test": "npm run build && node --test tests/*.test.js"
   },
   "dependencies": {
-    "@onflow/fcl": "^0.0.77",
+    "@onflow/fcl": "^1.21.11",
     "@onflow/types": "^0.0.6",
     "rlp": "^3.0.0",
     "sha3": "^2.1.4",
