@@ -5,7 +5,9 @@ export const generateKeyPair = () => {
   const privateKey = p256.utils.randomPrivateKey();
   return {
     private: Buffer.from(privateKey).toString("hex"),
-    public: Buffer.from(p256.getPublicKey(privateKey, false).subarray(1)).toString("hex"),
+    public: Buffer.from(
+      p256.getPublicKey(privateKey, false).subarray(1),
+    ).toString("hex"),
   };
 };
 
