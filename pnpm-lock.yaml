@@ -33,7 +33,7 @@ importers:
     devDependencies:
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^6.0.2
-        version: 6.0.2(@vue/compiler-sfc@3.5.43)(prettier@2.8.8)
+        version: 6.0.2(@vue/compiler-sfc@3.5.43)(prettier@3.9.9)
       '@types/node':
         specifier: ^26.6.3
         version: 26.6.4
@@ -44,8 +44,8 @@ importers:
         specifier: ^3.14.0
         version: 3.21.4
       prettier:
-        specifier: ^2.6.2
-        version: 2.8.8
+        specifier: ^3.9.9
+        version: 3.9.9
       ts-node:
         specifier: ^10.8.1
         version: 10.9.2(@types/node@26.6.4)(typescript@5.9.3)
@@ -982,9 +982,9 @@ packages:
       preact-render-to-string:
         optional: true
 
-  prettier@2.8.8:
-    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
-    engines: {node: '>=10.13.0'}
+  prettier@3.9.9:
+    resolution: {integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==}
+    engines: {node: '>=14'}
     hasBin: true
 
   pretty-hrtime@1.0.3:
@@ -1757,7 +1757,7 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/base': 1.2.6
 
-  '@trivago/prettier-plugin-sort-imports@6.0.2(@vue/compiler-sfc@3.5.43)(prettier@2.8.8)':
+  '@trivago/prettier-plugin-sort-imports@6.0.2(@vue/compiler-sfc@3.5.43)(prettier@3.9.9)':
     dependencies:
       '@babel/generator': 7.29.8
       '@babel/parser': 7.29.9
@@ -1767,7 +1767,7 @@ snapshots:
       lodash-es: 4.18.1
       minimatch: 9.0.9
       parse-imports-exports: 0.2.4
-      prettier: 2.8.8
+      prettier: 3.9.9
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.43
     transitivePeerDependencies:
@@ -2657,7 +2657,7 @@ snapshots:
 
   preact@10.29.8: {}
 
-  prettier@2.8.8: {}
+  prettier@3.9.9: {}
 
   pretty-hrtime@1.0.3: {}
 

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   bracketSpacing: true,
   bracketSameLine: false,
   singleQuote: false,
@@ -6,7 +6,7 @@ module.exports = {
   semi: true,
 
   // @trivago/prettier-plugin-sort-imports
-  plugins: [require("@trivago/prettier-plugin-sort-imports")],
+  plugins: ["@trivago/prettier-plugin-sort-imports"],
   importOrder: [
     "<THIRD_PARTY_MODULES>",
     "@/(.*)$",
