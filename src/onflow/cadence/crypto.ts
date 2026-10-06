@@ -1,8 +1,8 @@
-import { p256 } from "@noble/curves/p256";
+import { p256 } from "@noble/curves/nist.js";
 import SHA3 from "sha3";
 
 export const generateKeyPair = () => {
-  const privateKey = p256.utils.randomPrivateKey();
+  const privateKey = p256.utils.randomSecretKey();
   return {
     private: Buffer.from(privateKey).toString("hex"),
     public: Buffer.from(
@@ -23,6 +23,8 @@ export const hashMsg = (msg: string): Buffer => {
 
 export const signWithKey = (privateKey: string, msg: string): string => {
   // Flow signs a SHA3-256 digest and expects fixed-width r || s bytes.
-  const signature = p256.sign(hashMsg(msg), privateKey, { prehash: false });
-  return Buffer.from(signature.toCompactRawBytes()).toString("hex");
+  const signature = p256.sign(hashMsg(msg), Buffer.from(privateKey, "hex"), {
+    prehash: false,
+  });
+  return Buffer.from(signature).toString("hex");
 };
