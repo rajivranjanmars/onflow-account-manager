@@ -15,4 +15,4 @@ This is the default `Account` class where you can create authentication to use o
 
 ## Fork author and maintainer
 
-[rajivranjanmars](https://rajivranjana.in) maintains this repository. Original project authors, licenses, and upstream credits are retained.
+[Rajiv Ranjan](https://rajivranjan.in) maintains this repository. Original project authors, licenses, and upstream credits are retained.
