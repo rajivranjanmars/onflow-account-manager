@@ -18,7 +18,7 @@
     "test": "npm run build && node --test tests/*.test.js"
   },
   "dependencies": {
-    "@onflow/fcl": "^0.0.77",
+    "@onflow/fcl": "^1.21.11",
     "@onflow/types": "^0.0.6",
     "rlp": "^3.0.0",
     "sha3": "^2.1.4",
@@ -27,7 +27,7 @@
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/node": "^17.0.40",
-    "@types/onflow__fcl": "many-things/fcl-types#semver:^0.0.4",
+    "@types/onflow__fcl": "git+https://github.com/many-things/fcl-types.git#semver:^0.0.4",
     "google-protobuf": "^3.14.0",
     "prettier": "^2.6.2",
     "ts-node": "^10.8.1",
