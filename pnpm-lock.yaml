@@ -38,8 +38,8 @@ importers:
         specifier: ^17.0.40
         version: 17.0.45
       '@types/onflow__fcl':
-        specifier: many-things/fcl-types#semver:^0.0.4
-        version: git+https://git@github.com:many-things/fcl-types.git#fa29497501d151ed2d9a9543462feb82bfa81618
+        specifier: git+https://github.com/many-things/fcl-types.git#semver:^0.0.4
+        version: git+https://github.com/many-things/fcl-types.git#fa29497501d151ed2d9a9543462feb82bfa81618
       google-protobuf:
         specifier: ^3.14.0
         version: 3.21.4
@@ -371,8 +371,8 @@ packages:
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
 
-  '@types/onflow__fcl@git+https://git@github.com:many-things/fcl-types.git#fa29497501d151ed2d9a9543462feb82bfa81618':
-    resolution: {commit: fa29497501d151ed2d9a9543462feb82bfa81618, repo: git@github.com:many-things/fcl-types.git, type: git}
+  '@types/onflow__fcl@git+https://github.com/many-things/fcl-types.git#fa29497501d151ed2d9a9543462feb82bfa81618':
+    resolution: {commit: fa29497501d151ed2d9a9543462feb82bfa81618, repo: https://github.com/many-things/fcl-types.git, type: git}
     version: 0.0.4
 
   '@types/trusted-types@2.0.7':
@@ -2005,7 +2005,7 @@ snapshots:
 
   '@types/node@17.0.45': {}
 
-  '@types/onflow__fcl@git+https://git@github.com:many-things/fcl-types.git#fa29497501d151ed2d9a9543462feb82bfa81618': {}
+  '@types/onflow__fcl@git+https://github.com/many-things/fcl-types.git#fa29497501d151ed2d9a9543462feb82bfa81618': {}
 
   '@types/trusted-types@2.0.7': {}
 
