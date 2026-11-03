@@ -29,7 +29,7 @@
     "@types/node": "^26.6.3",
     "@types/onflow__fcl": "git+https://github.com/many-things/fcl-types.git#semver:^0.0.4",
     "google-protobuf": "^3.14.0",
-    "prettier": "^3.9.9",
+    "prettier": "^3.9.10",
     "ts-node": "^10.8.1",
     "typescript": "^5.9.3"
   },
